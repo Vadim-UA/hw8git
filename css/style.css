@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Pacifico', cursive; */
+
+/* -----------------------------header */
+.header {
+	text-align: center;
+	padding: 10px;
+	background: rgb(30, 172, 53);
+	font-size: 0;
+}
+.logowrapper {
+	display: inline-block;
+	max-width: 500px;
+	width: 100%;
+	text-align: left;
+}
+.logo {
+	width: 70px;
+	height: 70px;
+	background: rgb(145, 21, 21);
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.headernav__wrapper {
+	display: inline-block;
+}
+.navlist {
+	line-height: 70px;
+}
+.nav__item {
+	display: inline-block;
+}
+.nav__item:not(:last-child) {
+	margin: 0px 50px 0px 0px;
+}
+.link {
+	font-family: "Lobster", cursive;
+	font-size: 22px;
+	color: #fff;
+}
+
+/* -----------------------------main */
+.main {
+	background: rgb(242, 248, 205);
+}
+.content {
+	max-width: 1170px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.lobster {
+	font-family: "Lobster", cursive;
+}
+.roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3 {
+	color: rgb(14, 134, 104);
+	padding: 10px;
+	text-decoration: 3px underline;
+}
+.hover-container {
+	font-family: "Pacifico", cursive;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+/* -----------------------------hover */
+.hover-ul li {
+	display: inline-block;
+	padding: 0px 0px 20px 0px;
+}
+
+.hover-ul li:not(:last-child) {
+	margin: 0px 15px 30px 0px;
+}
+.hoverlink {
+	display: inline-block;
+	width: 170px;
+	padding: 10px 15px;
+	border: 3px solid rgb(57, 202, 20);
+	border-radius: 10px;
+	box-shadow: 0px 8px 0px 0px #000000;
+}
+.hover-ul li .trabl:visited {
+	color: #f70909;
+	border-color: #c01717;
+	background: #000;
+}
+.hoverlink:hover {
+	background: rgb(19, 179, 19);
+	box-shadow: 0px 2px 2px 2px #000000;
+	color: #fff;
+}
+
+.hov:hover {
+	background: rgb(19, 179, 19);
+	box-shadow: inset 0px 2px 2px 2px #490a0aad;
+	color: rgb(250, 95, 23);
+}
+.act:active {
+	color: rgb(255, 251, 7);
+	font-size: 18px;
+	box-shadow: inset 0px 6px 2px 2px #000000;
+}
+
+/* -------------------------hover-text */
+.text {
+	padding: 20px;
+	border: 2px solid rgb(177, 55, 55);
+	border-radius: 10px;
+	color: rgb(64, 107, 224);
+	background: rgb(192, 133, 133);
+}
+.innerlink {
+	padding: 5px;
+}
+.innerlink:visited {
+	color: #f70909;
+}
+
+.text:hover :not(:last-child) {
+	font-weight: 700;
+	border-radius: 10px;
+}
+.text p {
+	padding: 0px 3px 6px 2px;
+}
+.text p:hover {
+	padding: 0px 30px;
+	background: url("../img/icon.png") 0 0 / 20px no-repeat, url("../img/light.png") 100% 0 / 20px no-repeat;
+	font-family: "Pacifico", cursive;
+	color: #c818ce;
+}
+.text :last-child {
+	font-family: "Pacifico", cursive;
+}
+.text :nth-child(5) {
+	font-size: 30px;
+	width: 20px;
+	height: 30px;
+	overflow: hidden;
+}
+.text :nth-child(5):hover {
+	width: 100%;
+	height: 100%;
+	color: #5d62b5;
+	background: url("../img/check-mark.png") 0 20px / 30px no-repeat,
+		url("../img/check-mark.png") 100% 20px / 30px no-repeat;
+	padding: 10px 0px 20px 40px;
+}
+.textinput {
+	width: 50%;
+	min-height: 50px;
+	border-radius: 10px;
+	background: rgb(230, 154, 154);
+	color: #fff;
+	font-size: 20px;
+	padding: 0px 20px 0px 20px;
+}
+.textinput:focus {
+	box-shadow: 10px 10px 20px rgba(16, 84, 209, 0.8);
+	background: rgba(230, 154, 154, 0.5);
+}
+.text span:only-of-type {
+	text-decoration: 2px underline;
+	color: rgb(43, 10, 10);
+	display: inline-block;
+	padding: 0px 0px 20px 0px;
+}
+.text span:only-of-type:hover {
+	background: rgb(50, 52, 155);
+	color: #fff;
+}
+/* ------------------------------list */
+.list {
+	font-size: 25px;
+	display: inline-block;
+}
+.list li {
+	padding: 5px 10px 5px 30px;
+}
+.list li :nth-child(2):hover {
+	background: #000;
+	border-radius: 10px;
+	font-family: "Pacifico", cursive;
+}
+.list li:last-child {
+	margin: 0px 0px 20px 0px;
+}
+
+.list :hover:first-child {
+	background: rgb(136, 228, 32);
+	border-radius: 10px;
+}
+.list :last-child:hover {
+	color: rgb(22, 201, 46);
+	font-style: normal;
+	font-size: 120%;
+}
+.list li:not(:nth-child(3)) {
+	color: #c01717;
+}
+.list :nth-child(3) {
+	color: #4b4b4b;
+}
+.list li:nth-child(4) {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.list li:nth-child(4):hover {
+	color: rgb(11, 2, 138);
+}
+/* -----------------------------list2 */
+.list2 li {
+	padding: 5px 10px 20px 20px;
+}
+.list2 li:last-child {
+	margin-bottom: 20px;
+}
+.list2 :nth-child(odd) {
+	color: rgb(8, 153, 3);
+	font-size: 15px;
+}
+.list2 :nth-child(odd):hover {
+	color: rgb(9, 7, 139);
+}
+.list2 :nth-child(even) {
+	color: rgb(9, 7, 139);
+}
+.list2 :nth-child(even):hover {
+	color: rgb(8, 153, 3);
+}
+.list2 li:first-child:hover > .list2:last-child {
+	color: #ff0000;
+}
+/* -------------------------------only */
+.only,
+.oftype,
+.only p {
+	padding: 10px;
+}
+.only p:only-of-type {
+	color: rgb(223, 5, 5);
+}
+.only :only-child {
+	background: rgb(23, 219, 49);
+	border-radius: 10px;
+	padding: 0px 5px 0px 5px;
+}
+
+/* -----------------------------oftype */
+.oftype :not(p) {
+	display: block;
+	padding: 10px 0px 10px 0px;
+}
+.oftype p:first-of-type {
+	color: rgb(64, 52, 238);
+	padding: 5px 0px 5px 0px;
+}
+.oftype span:last-of-type {
+	color: rgb(44, 255, 2);
+}
+.oftype :nth-of-type(2n) {
+	background: rgb(42, 224, 118);
+	border-radius: 5px;
+	max-width: 95%;
+	padding: 3px;
+	margin-bottom: 3px;
+}
+.oftype span::first-letter {
+	color: rgb(68, 1, 252);
+	font-size: 180%;
+	text-decoration: 5px underline;
+	padding: 5px 20px 5px 10px;
+	font-family: "Roboto", sans-serif;
+}
+.oftype p::first-line {
+	color: rgb(255, 0, 0);
+	font-family: "Lobster", cursive;
+}
+/* -----------------------------psevdo */
+.psevdo {
+	font-family: "Roboto", sans-serif;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.psevdo span {
+	font-size: 30px;
+	color: rgb(69, 223, 8);
+}
+.psevdo span::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: rgb(23, 7, 250);
+	border-radius: 50%;
+	margin: 0px 20px 0px 0px;
+	border: 2px solid rgb(248, 8, 8);
+}
+.psevdo span::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: rgb(7, 250, 39);
+	border-radius: 30%;
+	margin: 0px 0px 0px 20px;
+	border: 2px solid #000;
+}
+.psevdo h2 {
+	display: inline-block;
+	font-size: 30px;
+	margin: 0px 30px 0px 0px;
+	line-height: 1;
+	vertical-align: top;
+}
+.psevdolink {
+	font-size: 130%;
+	padding: 3px;
+	display: inline-block;
+	border-radius: 10px;
+}
+.psevdolink :hover::before {
+	display: inline-block;
+	content: "''";
+	width: 10px;
+	height: 10px;
+	color: rgb(6, 179, 6);
+}
+.psevdolink :hover::after {
+	display: inline-block;
+	content: "''";
+	width: 10px;
+	height: 10px;
+	color: rgb(6, 179, 6);
+	padding: 0px 0px 0px 5px;
+}
+.psevdo h2::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/pencil.png") 0 0 / 20px no-repeat;
+	padding: 0px 40px 0px 0px;
+}
+.psevdo h2::after {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url("../img/check-mark.png") 100% 0 / 20px no-repeat;
+	display: inline-block;
+	padding: 0px 0px 0px 40px;
+}
+.psevdowrapper {
+	text-align: center;
+}
+.psevdoliststatic li,
+.psevdolist li {
+	padding: 10px 20px 10px 20px;
+	font-size: 22px;
+	font-family: "Lobster", cursive;
+	color: #2645d1;
+	display: inline-block;
+}
+.psevdolist li:hover:nth-child(odd) {
+	color: #fa0707;
+	text-decoration: 3px underline;
+	padding: 0px 0px 5px 0px;
+}
+.psevdolist li:hover:nth-child(even) {
+	color: #000000;
+	text-decoration: 3px underline;
+	padding: 0px 0px 5px 0px;
+}
+.psevdolist li:hover:first-child::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/downarrow.png") 50% / 15px no-repeat;
+	padding: 0px 40px 0px 0px;
+}
+.psevdolist li:hover:first-child::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/downarrow.png") 50% / 15px no-repeat;
+	padding: 0px 0px 0px 40px;
+}
+.psevdolist li:hover:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/light.png") 50% / 20px no-repeat;
+	margin: 0px 20px 0px 0px;
+}
+.psevdolist li:hover:nth-child(2)::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/light.png") 50% / 20px no-repeat;
+	margin: 0px 0px 0px 20px;
+}
+.psevdolist li:hover:nth-child(3)::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/pencil.png") 50% / 20px no-repeat;
+	margin: 0px 20px 0px 0px;
+}
+.psevdolist li:hover:nth-child(3)::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/pencil.png") 50% / 20px no-repeat;
+	margin: 0px 0px 0px 20px;
+}
+.psevdolist li:hover:last-child::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/check-mark.png") 50% / 20px no-repeat;
+	margin: 0px 20px 0px 0px;
+}
+.psevdolist li:hover:last-child::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/check-mark.png") 50% / 20px no-repeat;
+	margin: 0px 0px 0px 20px;
+}
+/* -------------------psevdoliststatic */
+.psevdoliststatic li {
+	padding: 10px 20px 10px 30px;
+}
+.psevdoliststatic li:first-child:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/place_24px.png") 0px 5px / 10px no-repeat;
+	vertical-align: top;
+}
+.psevdoliststatic li:nth-child(2):before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/smartphone_24px.png") 0 5px / 10px no-repeat;
+	vertical-align: top;
+}
+.psevdoliststatic li:nth-child(3):before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/timer_24px.png") 0 6px / 10px no-repeat;
+	vertical-align: top;
+}
+.psevdoliststatic li:last-child:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/email_24px.png") 0 8px / 10px no-repeat;
+	vertical-align: top;
+}
+.psevdoliststatic li::after {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+	background: url("../img/check-mark.png") 8px 5px / 15px no-repeat;
+	vertical-align: top;
+}
+.psevdobox {
+	font-size: 0;
+	max-width: 504px;
+	margin: 0px auto 30px;
+	padding: 0px 0px 30px 0px;
+}
+.psevdobox img {
+	box-shadow: 0px 1px 10px #000;
+}
+.psevdobox::before {
+	content: "";
+	display: block;
+	width: 70%;
+	height: 20px;
+	background: url("../img/icon.png") 0 0 / 20px space;
+	margin: 0px auto 20px;
+}
+.psevdobox::after {
+	content: "";
+	display: block;
+	width: 70%;
+	height: 20px;
+	background: url("../img/check-mark.png") 0 0 / 20px space;
+	margin: 20px auto 0px;
+}
+.mb20 {
+	margin: 0px 0px 20px 0px;
+}
+.mb33 {
+	margin: 0px 0px 33px 0px;
+}
+.mb70 {
+	margin: 0px 0px 70px 0px;
+}
+.care::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background: url("../img/doggy/01.svg") 0 0 no-repeat;
+}
+.veterinarion::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background: url("../img/doggy/02.svg") 0 0 no-repeat;
+}
+.stream::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background: url("../img/doggy/03.svg") 0 0 no-repeat;
+}
+.doggie {
+	font-family: "Roboto", sans-serif;
+	background: #f5f5f5;
+	padding: 40px 0px 70px 0px;
+	font-size: 0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 6px 0px #000000;
+}
+.doggiesubtitle {
+	color: #5d62b5;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.doggiesubtitle::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/doggy/doggie-icon.svg") 0 -3px no-repeat;
+	padding: 0px 0px 0px 33px;
+	width: 18px;
+	height: 17px;
+	vertical-align: top;
+}
+.doggietitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.doggieicon {
+	width: 86px;
+	height: 63px;
+	display: inline-block;
+	padding: 0px 23px 0px 0px;
+}
+.doggieitem {
+	display: inline-block;
+	width: 33.333%;
+}
+
+.doggieitembody {
+	display: inline-block;
+	max-width: 235px;
+	width: 100%;
+	vertical-align: top;
+}
+.itembodytitle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+}
+.itembodytext {
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+/* -------------------choose-how-often */
+.choosecontainer {
+	width: 255px;
+	margin: 0px auto;
+	font-size: 0;
+	font-family: "Arial", "Helvetica", sans-serif;
+	border-radius: 6px;
+	background: #252525;
+	padding: 27px 24px 64px;
+}
+
+.choosetitle {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 25.3px;
+	letter-spacing: -0.25px;
+	text-transform: capitalize;
+	color: #fff;
+}
+.choosetext {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.16px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.choosetitle::after {
+	content: "";
+	font-size: 2px;
+	width: 56px;
+	height: 2px;
+	background: #34c759;
+	display: block;
+	margin: 10px 0px 24px 0px;
+}
+
+/* -----------------------------footer */
+.footer {
+	background-color: rgb(40, 16, 146);
+	text-align: center;
+}
